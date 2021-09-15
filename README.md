@@ -21,9 +21,7 @@
 
 Afin de faire fonctionner l'application, il est nécessaire que des variables d'environnement soient définies.
 
-Copier le fichier d'exemple .env_fnac dans un fichier nommé .env
-
-Renseigner les valeurs
+Renseigner les valeurs dans le fichier .env
 
 ```yaml
 NODE_ENV=production
@@ -74,6 +72,7 @@ POSTGRES_PORT=5432
 | `POSTGRES_DATABASE_NAME`  | Nom de la base de données                           | fnac                             |
 | `POSTGRES_HOST`           | URL de la base de données                           | localhost                        |
 | `POSTGRES_PORT`           | Port d'écoute de la base de données                 | 5432                             |
+| `LOGS_PATH`               | Chemin absolute des logs (par défault: logs)        | c:\logs                          |
 
 ## Mise en place du modèle de données
 
@@ -91,7 +90,7 @@ Cette commande va créer les tables suivantes dans le schéma `SCHEMA_TABLE`:
 
 Elle teste aussi l'existence des tables socio-démographiques. 
 
-Un résumé est affiché à la fin du processus
+Un résumé est affiché à la fin du processus.
 
 
 # Lancement de l'application
