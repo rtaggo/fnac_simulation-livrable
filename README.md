@@ -99,3 +99,13 @@ Un résumé est affiché à la fin du processus.
 
         run_simulation_app.bat
 
+# Création d'un service Windows
+
+> :warning: cette partie est à titre indicative et Galigeo n'assure aucun support.
+
+Il est possible de créer un service windows base sur le script `run_simulation_app.bat`.
+
+Se référer à l'exemple présenté sur ce site:
+
+[Deploying a Node.js application on Windows IIS using a reverse proxy](https://alex.domenici.net/archive/deploying-a-node-js-application-on-windows-iis-using-a-reverse-proxy)
+
