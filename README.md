@@ -1,21 +1,20 @@
 # fnac-simulation
 
-
 # Pré requis
 
-1.  Install [Node.js](https://nodejs.org/en/)
-
-1. Postgres version 9.4 minium
+1.  [Node.js](https://nodejs.org/en/) pour la dernière version
+    - [Anciennes Versions](https://nodejs.org/en/download/releases/)
+1.  Postgres version 9.4 minium
 
 # Installation
 
 1.  Télécharger l'application
 
-[fnac-simulation.zip](https://github.com/rtaggo/fnac_simulation-livrable/raw/main/fnac-simulation.zip)
+[fnac-simulation.zip](https://github.com/rtaggo/fnac_simulation-livrable/raw/main/fnac_simulation.zip)
 
-1.  Décompresser le fichier `fnac-simulation.zip` et aller dans le répertoire `fnac-simulation`:
+1.  Décompresser le fichier `fnac_simulation.zip` et aller dans le répertoire `fnac_simulation`:
 
-        cd fnac-simulation
+        cd fnac_simulation
 
 ## Variables d'environnement
 
@@ -88,14 +87,13 @@ Cette commande va créer les tables suivantes dans le schéma `SCHEMA_TABLE`:
 - `ggo_simulation_cannibalisation`: table de la cannibalisation rempli par le modèle de simulation
 - `ggo_simulation_job`: table contenant la liste des jobs de calcul de simulation
 
-Elle teste aussi l'existence des tables socio-démographiques. 
+Elle teste aussi l'existence des tables socio-démographiques.
 
 Un résumé est affiché à la fin du processus.
 
-
 # Lancement de l'application
 
- Lancer le script:
+Lancer le script:
 
         run_simulation_app.bat
 
@@ -108,4 +106,3 @@ Il est possible de créer un service windows base sur le script `run_simulation_
 Se référer à l'exemple présenté sur ce site:
 
 [Deploying a Node.js application on Windows IIS using a reverse proxy](https://alex.domenici.net/archive/deploying-a-node-js-application-on-windows-iis-using-a-reverse-proxy)
-

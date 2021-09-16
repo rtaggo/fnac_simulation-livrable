@@ -1,0 +1,33 @@
+# Node dependencies
+node_modules
+
+# logs
+logs
+*.log
+
+# GCP
+.gcloudignore
+
+# misc
+.DS_Store
+
+# Google App Engine generated folder
+appengine-generated/
+
+# configuration files
+.env
+.env_dev
+.env_prod 
+
+app.yaml
+app_prod.yaml
+app_dev.yaml
+
+# dist directory
+dist
+package-lock.json
+
+# local devs directory
+dev
+
+certs
