@@ -11,6 +11,9 @@
 
 1.  [Node.js](https://nodejs.org/en/) pour la dernière version
     - [Anciennes Versions](https://nodejs.org/en/download/releases/)
+        
+        Sur un Windows Serveur 2008 R2, il est possible d'installer la version 12 de Node JS. 
+
 1.  Postgres version 9.4 minium
 
 ## Installation
