@@ -14,7 +14,9 @@
         
         Sur un Windows Serveur 2008 R2, il est possible d'installer la version 12 de Node JS. 
 
-1.  Postgres version 9.4 minium
+1.  Postgres version 9.4 minium mais plus supportée
+    
+    La plus ancienne version encore supportée est la 9.6. 
 
 ## Installation
 
