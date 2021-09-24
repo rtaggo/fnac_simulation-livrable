@@ -3,15 +3,17 @@
 # Galigeo Expérience
 
 [GaligeoEnterprise_G21_SP3-eXperience.zip](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip)
+
 [GaligeoEnterprise_G21_SP3-eXperience.zip.MD5](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip.MD5)
 
-# Pré requis
+# Application de Simulation
+## Pré requis
 
 1.  [Node.js](https://nodejs.org/en/) pour la dernière version
     - [Anciennes Versions](https://nodejs.org/en/download/releases/)
 1.  Postgres version 9.4 minium
 
-# Installation
+## Installation
 
 1.  Télécharger l'application
 
@@ -21,7 +23,7 @@
 
         cd fnac_simulation
 
-## Variables d'environnement
+### Variables d'environnement
 
 Afin de faire fonctionner l'application, il est nécessaire que des variables d'environnement soient définies.
 
@@ -84,7 +86,7 @@ MYTRAFFIC_MODE=
 | `MYTRAFFIC_API_KEY`       | Clé API My Traffic (cf Galigeo)                     | XXXXXXX                          |
 | `MYTRAFFIC_MODE`          | mode de donnée my traffic                           | production                       |
 
-## Mise en place du modèle de données
+### Mise en place du modèle de données
 
 Lancer le script suivant:
 
@@ -102,13 +104,13 @@ Elle teste aussi l'existence des tables socio-démographiques.
 
 Un résumé est affiché à la fin du processus.
 
-# Lancement de l'application
+## Lancement de l'application
 
 Lancer le script:
 
         run_simulation_app.bat
 
-# Création d'un service Windows
+## Création d'un service Windows
 
 > :warning: cette partie est à titre indicative et Galigeo n'assure aucun support.
 
