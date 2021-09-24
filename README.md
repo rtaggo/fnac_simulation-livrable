@@ -2,9 +2,9 @@
 
 # Galigeo Expérience
 
-[GaligeoEnterprise_G21_SP3-eXperience.zip](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip)
+[GaligeoEnterprise_G21_SP3-eXperience.zip](https://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip)
 
-[GaligeoEnterprise_G21_SP3-eXperience.zip.MD5](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip.MD5)
+[GaligeoEnterprise_G21_SP3-eXperience.zip.MD5](https://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip.MD5)
 
 # Application de Simulation
 ## Pré requis
