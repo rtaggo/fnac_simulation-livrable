@@ -1,5 +1,10 @@
 # fnac-simulation
 
+# Galigeo Expérience
+
+[GaligeoEnterprise_G21_SP3-eXperience.zip](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip)
+[GaligeoEnterprise_G21_SP3-eXperience.zip.MD5](http://download.galigeo.com/Fnac/GaligeoEnterprise_G21_SP3-eXperience.zip.MD5)
+
 # Pré requis
 
 1.  [Node.js](https://nodejs.org/en/) pour la dernière version
@@ -42,9 +47,12 @@ JWT_EXPIRESIN='10 days'
 JWT_TOKENNAME='ggofnac_simulation_accessToken'
 POSTGRES_USER=
 POSTGRES_PASSWORD=
-POSTGRES_DATABASE_NAME=
+POSTGRES_DATABASE_NAME=fnac
 POSTGRES_HOST=localhost
 POSTGRES_PORT=5432
+MYTRAFFIC=
+MYTRAFFIC_API_KEY=
+MYTRAFFIC_MODE=
 ```
 
 | Variables                 | Explication                                         | Exemple (Production)             |
@@ -72,6 +80,9 @@ POSTGRES_PORT=5432
 | `POSTGRES_HOST`           | URL de la base de données                           | localhost                        |
 | `POSTGRES_PORT`           | Port d'écoute de la base de données                 | 5432                             |
 | `LOGS_PATH`               | Chemin absolute des logs (par défault: logs)        | c:\logs                          |
+| `MYTRAFFIC`               | Activer ou non MyTraffic (consommation de crédit)   | enabled                          |
+| `MYTRAFFIC_API_KEY`       | Clé API My Traffic (cf Galigeo)                     | XXXXXXX                          |
+| `MYTRAFFIC_MODE`          | mode de donnée my traffic                           | production                       |
 
 ## Mise en place du modèle de données
 
